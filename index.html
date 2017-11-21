@@ -3,453 +3,365 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Delicious</title>
-  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Day - HTML Bootstrap Template</title>
 
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
   <!-- =======================================================
-    Theme Name: Delicious
-    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-    Author: BootstrapMade.com
+    Theme Name: Day
+    Theme URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+    Author: BootstrapMade
     Author URL: https://bootstrapmade.com
   ======================================================= -->
 </head>
 
 <body>
-  <!--banner-->
-  <section id="banner">
-    <div class="bg-color">
-      <header id="header">
-        <div class="container">
-          <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about">About</a>
-            <a href="#event">Event</a>
-            <a href="#menu-list">Menu</a>
-            <a href="#contact">Book a table</a>
-          </div>
-          <!-- Use any element to open the sidenav -->
-          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
-        </div>
-      </header>
+  <header id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="banner">
       <div class="container">
-        <div class="row">
-          <div class="inner text-center">
-            <h1 class="logo-name">Delicious</h1>
-            <h2>Food To fit your lifestyle & health.</h2>
-            <p>Specialized in Indian Cuisine!!</p>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Day</h1></a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html" class="active">Home</a></li>
+              <li role="presentation"><a href="about.html">About Us</a></li>
+              <li role="presentation"><a href="services.html">Services</a></li>
+              <li role="presentation"><a href="gallery.html">Gallery</a></li>
+              <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- / banner -->
-  <!--about-->
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center marb-35">
-          <h1 class="header-h">Delicious Journey</h1>
-          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div class="col-md-6 col-sm-6">
-            <div class="about-info">
-              <h2 class="heading">vel illum qui dolorem eum</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
-              <div class="details-list">
-                <ul>
-                  <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                  <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
-                  <li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed </li>
-                  <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
-                </ul>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+  </header>
+  <!--/header-->
+
+  <div class="slider">
+    <div id="about-slider">
+      <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators visible-xs">
+          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-slider" data-slide-to="1"></li>
+          <li data-target="#carousel-slider" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/slide.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2><span>Clean & Modern Design Template</span></h2>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <img src="img/res01.jpg" alt="" class="img-responsive">
-          </div>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
-    </div>
-  </section>
-  <!--/about-->
-  <!-- event -->
-  <section id="event">
-    <div class="bg-color" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center" style="padding:60px;">
-            <h1 class="header-h">Up Coming events</h1>
-            <p class="header-p">Decorations 100% complete here</p>
-          </div>
-          <div class="col-md-12" style="padding-bottom:60px;">
-            <div class="item active left">
-              <div class="col-md-6 col-sm-6 left-images">
-                <img src="img/res02.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-6 col-sm-6 details-text">
-                <div class="content-holder">
-                  <h2>Joyful party</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus quaerat praesentium id expedita nihil illo accusantium, tempora.</p>
-                  <address>
-                              <strong>Place: </strong>
-                              1612 Collins Str, Victoria 8007
-                              <br>
-                              <strong>Time: </strong>
-                              07:30pm
-                            </address>
-                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
                 </div>
               </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                  </div>
+                  <div class="form-group">
+                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/slide.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
+                <h2>Fully Responsive</h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                  </div>
+                  <div class="form-group">
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slide.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2>Modern Design</h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                  </div>
+                  <div class="form-group">
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
+
+        <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+
+        <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+      </div>
+      <!--/#carousel-slider-->
+    </div>
+    <!--/#about-slider-->
+  </div>
+  <!--/#slider-->
+
+  <div class="about">
+    <div class="container">
+      <div class="text-center">
+        <h2>Quaerat quod voluptate consequuntur </h2>
+        <div class="col-md-10 col-md-offset-1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod voluptate consequuntur ad quasi, dolores obcaecati ex aliquid, dolor provident accusamus omnis dolorum ipsam. Voluptatem ipsum expedita, corporis facilis laborum asperiores
+            nostrum! Amet porro numquam ratione temporibus quia dolorem sint lorem voluptates quasi mollitia.</p>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="btn-gamp"><a href="#">Learn More</a></div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="gamp-btn"><a href="#">download</a></div>
+        </div>
+
       </div>
     </div>
-  </section>
-  <!--/ event -->
-  <!-- menu -->
-  <section id="menu-list" class="section-padding">
+  </div>
+  <hr>
+
+  <div class="services">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center marb-35">
-          <h1 class="header-h">Menu List</h1>
-          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
-        </div>
-        <div class="col-md-12  text-center gallery-trigger">
+      <div class="text-center">
+        <h2>consectetur adipisicing elit</h2>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <i class="fa fa-heart-o"></i>
+        <h3>Fully Responsive</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <i class="fa fa-cloud"></i>
+        <h3>Retina Ready</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <i class="fa fa-book"></i>
+        <h3>Fresh and Clean</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+        <i class="fa fa-gear"></i>
+        <h3>Easy to Customize</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="action">
+    <div class="container">
+      <div class="left-text hidden-xs">
+        <h4>Amet porro numquam ratione</h4>
+        <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ut explicabo magni sapiente.</em><br><br>Inventore at quia, vel in repellendus, cumque dolorem autem ad quidem mollitia porro blanditiis atque rerum debitis eveniet nostrum aliquam.
+          Sint aperiam expedita sapiente amet officia quis perspiciatis adipisci, iure dolorem esse exercitationem!</p>
+      </div>
+      <div class="right-image hidden-xs"></div>
+    </div>
+  </section>
+
+  <div class="gallery">
+    <div class="text-center">
+      <h2>Gallery</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod voluptate consequuntur ad quasi, dolores obcaecati ex aliquid, dolor provident </p>
+    </div>
+    <div class="container">
+      <div class="col-md-4">
+        <figure class="effect-marley">
+          <img src="img/8.jpg" alt="" class="img-responsive" />
+          <figcaption>
+            <h4>sweet marley</h4>
+            <p>Marley tried to convince her but she was not interested.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="effect-marley">
+          <img src="img/9.jpg" alt="" class="img-responsive" />
+          <figcaption>
+            <h4>sweet marley</h4>
+            <p>Marley tried to convince her but she was not interested.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="effect-marley">
+          <img src="img/10.jpg" alt="" class="img-responsive" />
+          <figcaption>
+            <h4>sweet marley</h4>
+            <p>Marley tried to convince her but she was not interested.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-4">
+        <figure class="effect-marley">
+          <img src="img/11.jpg" alt="" class="img-responsive" />
+          <figcaption>
+            <h4>sweet marley</h4>
+            <p>Marley tried to convince her but she was not interested.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="effect-marley">
+          <img src="img/12.jpg" alt="" class="img-responsive" />
+          <figcaption>
+            <h4>sweet marley</h4>
+            <p>Marley tried to convince her but she was not interested.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="effect-marley">
+          <img src="img/13.jpg" alt="" class="img-responsive" />
+          <figcaption>
+            <h4>sweet marley</h4>
+            <p>Marley tried to convince her but she was not interested.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <h4>About Us</h4>
+        <p>Day is tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters.</p>
+        <div class="contact-info">
           <ul>
-            <li><a class="filter" data-filter="all">Show All</a></li>
-            <li><a class="filter" data-filter=".category-1">Breakfast</a></li>
-            <li><a class="filter" data-filter=".category-2">Lunch</a></li>
-            <li><a class="filter" data-filter=".category-3">Dinner</a></li>
+            <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
+            <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
+            <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
           </ul>
         </div>
-        <div id="Container">
-          <div class="mix category-1 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-1 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-1 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-1 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-2 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-2 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-2 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-2 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-3 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-3 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-3 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
-          <div class="mix category-3 menu-restaurant" data-myorder="2">
-            <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="text-center">
+          <h4>Photo Gallery</h4>
+          <ul class="sidebar-gallery">
+            <li><a href="#"><img src="img/gallery1.png" alt="" /></a></li>
+            <li><a href="#"><img src="img/gallery2.png" alt="" /></a></li>
+            <li><a href="#"><img src="img/gallery3.png" alt="" /></a></li>
+            <li><a href="#"><img src="img/gallery4.png" alt="" /></a></li>
+            <li><a href="#"><img src="img/gallery5.png" alt="" /></a></li>
+            <li><a href="#"><img src="img/gallery6.png" alt="" /></a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-  <!--/ menu -->
-  <!-- contact -->
-  <section id="contact" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="header-h">Book Your table</h1>
-          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <div class="">
+          <h4>Newsletter Registration</h4>
+          <p>Subscribe today to receive the latest Day news via email. You may unsubscribe from this service at any time</p>
+          <div class="btn-gamp">
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
+          </div>
+          <div class="btn-gamp">
+            <a type="submit" class="btn btn-default">Subscribe</a>
+          </div>
+
         </div>
       </div>
-      <div class="row msg-row">
-        <div class="col-md-4 col-sm-4 mr-15">
-          <div class="media-2">
-            <div class="media-left">
-              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
-            </div>
-            <div class="media-body">
-              <h4 class="dark-blue regular">Phone Numbers</h4>
-              <p class="light-blue regular alt-p">+440 875369208 - <span class="contacts-sp">Phone Booking</span></p>
-            </div>
-          </div>
-          <div class="media-2">
-            <div class="media-left">
-              <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
-            </div>
-            <div class="media-body">
-              <h4 class="dark-blue regular">Opening Hours</h4>
-              <p class="light-blue regular alt-p"> Monday to Friday 09.00 - 24:00</p>
-              <p class="light-blue regular alt-p">
-                Friday and Sunday 08:00 - 03.00
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8 col-sm-8">
-          <form action="" method="post" role="form" class="contactForm">
-            <div id="sendmessage">Your booking request has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <div class="col-md-6 col-sm-6 contact-form pad-form">
-              <div class="form-group label-floating is-empty">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
 
-<<<<<<< HEAD
-=======
-        <!-- *** LOGIN MODAL END *** -->
-
-        <section>
-            <!-- *** HOMEPAGE CAROUSEL ***
- _________________________________________________________ -->
-
-            <div class="home-carousel">
-
-                <div class="dark-mask"></div>
-
-                <div class="container">
-                    <div class="homepage owl-carousel">
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-sm-5 right">
-                                    <p>
-                                        <img src="img/logo.png" alt="">
-                                    </p>
-                                    <h1>Bienvenidos</h1>
-                                    <p>Business. Corporate. Agency.
-                                        <br />Portfolio. Blog. E-commerce.</p>
-                                </div>
-                                <div class="col-sm-7">
-                                    <img class="img-responsive" src="img/template-homepage.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-
-                                <div class="col-sm-7 text-center">
-                                    <img class="img-responsive" src="img/template-mac.png" alt="">
-                                </div>
-
-                                <div class="col-sm-5">
-                                    <h2>46 HTML pages full of features</h2>
-                                    <ul class="list-style-none">
-                                        <li>Sliders and carousels</li>
-                                        <li>4 Header variations</li>
-                                        <li>Google maps, Forms, Megamenu, CSS3 Animations and much more</li>
-                                        <li>+ 11 extra pages showing template features</li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-sm-5 right">
-                                    <h1>Design</h1>
-                                    <ul class="list-style-none">
-                                        <li>Clean and elegant design</li>
-                                        <li>Full width and boxed mode</li>
-                                        <li>Easily readable Roboto font and awesome icons</li>
-                                        <li>7 preprepared colour variations</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-7">
-                                    <img class="img-responsive" src="img/template-easy-customize.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-sm-7">
-                                    <img class="img-responsive" src="img/template-easy-code.png" alt="">
-                                </div>
-                                <div class="col-sm-5">
-                                    <h1>Easy to customize</h1>
-                                    <ul class="list-style-none">
-                                        <li>7 preprepared colour variations.</li>
-                                        <li>Easily to change fonts</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.project owl-slider -->
-                </div>
->>>>>>> 082c23a40b3ec1fbb7f6c23122431b938375d57f
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form pad-form">
-              <div class="form-group">
-                <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="col-md-12 contact-form">
-              <div class="form-group label-floating is-empty">
-                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-
-            </div>
-            <div class="col-md-12 btnpad">
-              <div class="contacts-btn-pad">
-                <button class="contacts-btn">Book Table</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- / contact -->
-  <!-- footer -->
-  <footer class="footer text-center">
-    <div class="footer-top">
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6 text-center">
-          <div class="widget">
-            <h4 class="widget-title">Delicious</h4>
-            <address>324 Ellte Road<br>Delhi, DL 110013</address>
-            <div class="social-list">
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </div>
-            <p class="copyright clear-float">
-              © Delicious Theme. All Rights Reserved
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   </footer>
-  <!-- / footer -->
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
+  <div class="sub-footer">
+    <div class="container">
+      <div class="social-icon">
+        <div class="col-md-4">
+          <ul class="social-network">
+            <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-md-offset-4">
+        <div class="copyright">
+          &copy; Day Theme. All Rights Reserved.
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Day
+            -->
+            <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.mixitup.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
-
+  <script src="js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
 </body>
 
 </html>
